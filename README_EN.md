@@ -50,8 +50,8 @@ presence.update(  # the first line in the status is the application name
     details="details",  # second line in the status
     start=time(),  # start timer
     buttons=buttons,  # button connection
-    large_image="img_1",  # large image, enter its name in large_image
-    small_image="img_2",  # small image, enter its name in small_image
+    large_image="img_1",  # large image, enter its name in large_image from step 2
+    small_image="img_2",  # small image, enter its name in small_image from step 2
     large_text="large_image_text",  # text when hovering over a large image
     small_text="small_image_text"  # text when hovering over a small image
 )
