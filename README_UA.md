@@ -30,30 +30,29 @@
 from pypresence import Presence
 from time import time
 
-presence = Presence("")  # client id here
+presence = Presence("")  # client id тут
 
 buttons = [  # maximum 2 buttons
     {
-        "label": "Button 1",  # button name
-        "url": "https://none.com/"  # button url
+        "label": "Button 1",  # ім'я кнопки
+        "url": "https://none.com/"  # посилання кнопки
     },
     {
-        "label": "Button 2",  # button name
-        "url": "https://none.com/"  # button url
+        "label": "Button 2",  # ім'я кнопки
+        "url": "https://none.com/"  # посилання кнопки
     }
 ]
 
 
-presence.connect()  # connect
-presence.update(  # the first line in the status is the application name
-    state="status",  # third line in status
-    details="details",  # second line in the status
-    start=time(),  # start timer
-    buttons=buttons,  # button connection
-    large_image="img_1",  # large image, enter its name in large_image
-    small_image="img_2",  # small image, enter its name in small_image
-    large_text="large_image_text",  # text when hovering over a large image
-    small_text="small_image_text"  # text when hovering over a small image
+presence.connect()  # підключення
+presence.update(  # перший рядок у статусі - назва програми
+    state="status",  # тдругий рядок за статусом
+    start=time(),  # таймер запуску
+    buttons=buttons,  # підключення кнопок
+    large_image="img_1",  # велике зображення, введіть його назву з кроку 2 в large_image
+    small_image="img_2",  # маленьке зображення, введіть його назву з кроку 2 в small_image
+    large_text="large_image_text",  # текст при наведенні на велике зображення
+    small_text="small_image_text"  # текст при наведенні на маленьке зображення
 )
 
 input()
