@@ -1,5 +1,7 @@
 # A guide on how to customize your game status in Discord.
 
+---
+
 ### Step 1: 
 #### Create an application on the website [discord.com/developers](https://discord.com/developers/applications)
 ![img](https://i.imgur.com/EFq1twc.gif)
