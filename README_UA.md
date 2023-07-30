@@ -1,5 +1,7 @@
 # Посібник про те як налаштувати свій ігровий статус у Discord.
 
+---
+
 ### Крок 1: 
 #### Створіть додаток на сайті [discord.com/developers](https://discord.com/developers/applications)
 ![img](https://i.imgur.com/EFq1twc.gif)
